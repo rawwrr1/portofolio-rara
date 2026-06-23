@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rara Anjali Apsarini | Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Personal portfolio of Rara Anjali Apsarini, Mahasiswa Teknik Informatika, UI/UX designer, web developer, and IoT enthusiast. Browse projects, education, skills, and values.">
+  <meta name="keywords" content="Rara Anjali Apsarini, Teknik Informatika, Portfolio, Web Developer, UI/UX Designer, IoT, Student Portfolio">
+  <meta name="author" content="Rara Anjali Apsarini">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rara Anjali Apsarini | Portfolio">
+  <meta property="og:description" content="Personal portfolio of Rara Anjali Apsarini, Mahasiswa Teknik Informatika, UI/UX designer, web developer, and IoT enthusiast.">
+  <meta property="og:image" content="/public/assets/foto_rara.jpeg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Blobs -->
+  <div class="blobblob blob-1"></div>
+  <div class="blobblob blob-2"></div>
+  <div class="blobblob blob-3"></div>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="logo">Rara</a>
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode" style="background: transparent; border: none; cursor: pointer; color: var(--text-primary); padding: 8px; display: flex; align-items: center; justify-content: center; margin-left: 15px; transition: color 0.3s;">
+        <!-- Ikon Sun (Default Terang) -->
+        <svg id="theme-icon-sun" class="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: block;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <!-- Ikon Moon (Disembunyikan saat Terang) -->
+        <svg id="theme-icon-moon" class="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <button class="mobile-toggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 1. Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-container">
+      <div class="hero-image-wrapper reveal">
+        <div class="hero-img-border">
+          <img src="/public/assets/foto_rara.jpeg" alt="Rara Anjali Apsarini" class="hero-img">
+        </div>
+      </div>
+      <div class="hero-content reveal">
+        <span class="hero-tag font-poppins">Mahasiswa Teknik Informatika</span>
+        <h1 class="hero-title font-poppins">Rara Anjali Apsarini</h1>
+        <p class="hero-tagline">UI/UX Designer • Web Developer • IoT Enthusiast</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Me -->
+  <section class="about-section scroll-spy-section" id="about">
+    <div class="section-container">
+      <h2 class="section-title font-poppins">About Me</h2>
+      
+      <div class="about-grid">
+        <div class="about-text-col reveal">
+          <h3 class="about-heading font-poppins">Teknologi untuk Solusi.</h3>
+          <p class="about-paragraph">
+            Saya adalah Mahasiswa Teknik Informatika Universitas Maritim Raja Ali Haji (UMRAH) dengan ketertarikan pada bidang frontend development, UI/UX design, dan Internet of Things (IoT). Berpengalaman mengembangkan proyek berbasis web dalam tugas akademik maupun proyek pribadi. Memiliki kemampuan komunikasi, kerja sama tim, dan adaptasi teknologi yang baik.
+          </p>
+          <p class="about-paragraph">
+            Dengan latar belakang akademik di bidang Teknik Informatika, saya terus mengembangkan kemampuan dalam pengembangan web, desain antarmuka pengguna, serta teknologi Internet of Things. Saya menikmati proses memecahkan masalah melalui pendekatan yang terstruktur dan selalu berusaha menghasilkan solusi yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman pengguna yang optimal.
+          </p>
+        </div>
+        
+        <div class="about-profile-card reveal">
+
+        <div class="profile-card-header"> 
+            <div class="profile-info">
+                <h4>Rara Anjali Apsarini</h4>
+                <p>Mahasiswa Teknik Informatika</p>
+            </div>
+        </div>
+
+        <div class="profile-divider"></div>
+
+        <div class="profile-highlights">
+
+            <div class="highlight-item">
+                <span class="highlight-value">5+</span>
+                <span class="highlight-label">Projects</span>
+            </div>
+
+            <div class="highlight-item">
+                <span class="highlight-value">2+</span>
+                <span class="highlight-label">Certificates</span>
+            </div>
+
+            <div class="highlight-item">
+                <span class="highlight-value">1+</span>
+                <span class="highlight-label">Organizations</span>
+            </div>
+
+        </div>
+
+        <div class="profile-divider"></div>
+
+        <div class="profile-tags">
+            <span>UI/UX</span>
+            <span>Frontend</span>
+            <span>IoT</span>
+            <span>Networking</span>
+            <span>Figma</span>
+        </div>
+
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Education -->
+  <section class="education-section scroll-spy-section" id="education">
+    <div class="section-container">
+      <h2 class="section-title font-poppins">Education</h2>
+      
+      <div class="timeline-container">
+        <!-- University -->
+        <div class="timeline-item reveal">
+          <div class="timeline-indicator">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-period">2023 — Present</span>
+            <h3 class="timeline-title font-poppins">Universitas Maritim Raja Ali Haji</h3>
+            <h4 class="timeline-institution">S1 - Teknik Informatika</h4>
+            <p class="timeline-desc">
+              Mempelajari Manajemen Basis Data, Etika Profesi IT, Analisis Proses Bisnis, Pemrograman Web, dan Pengembangan Aplikasi Mobile. Aktif dalam proyek kolaboratif IT.
+            </p>
+          </div>
+        </div>
+        
+        <!-- High School -->
+        <div class="timeline-item reveal">
+          <div class="timeline-indicator">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-period">2020 — 2023</span>
+            <h3 class="timeline-title font-poppins">MA Al-Bairuny Jombang</h3>
+            <h4 class="timeline-institution">IPA (Ilmu Pengetahuan Alam)</h4>
+            <p class="timeline-desc">
+              Mempelajari ilmu dasar saintek dengan fokus pada analisis logis dan ilmu agama islam yang lebih dalam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Skills -->
+  <section class="skills-section scroll-spy-section" id="skills">
+    <div class="section-container">
+      <h2 class="section-title font-poppins">Technical Skills</h2>
+      
+      <div class="skills-grid reveal">
+        <!-- Frontend -->
+        <div class="skills-category-card">
+          <div class="skills-category-header">
+            <svg class="skills-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            <h3 class="skills-category-title font-poppins">Frontend Development</h3>
+          </div>
+          <div class="skills-badges">
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">PHP</span>
+            <span class="skill-badge">Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skills-category-card">
+          <div class="skills-category-header">
+            <svg class="skills-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+            <h3 class="skills-category-title font-poppins">Backend Development</h3>
+          </div>
+          <div class="skills-badges">
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">AWS</span>
+            <span class="skill-badge">CodeIgniter 3</span>
+            <span class="skill-badge">MySQL</span>
+            <span class="skill-badge">Python</span>
+          </div>
+        </div>
+
+        <!-- UI/UX -->
+        <div class="skills-category-card">
+          <div class="skills-category-header">
+            <svg class="skills-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path><path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z"></path></svg>
+            <h3 class="skills-category-title font-poppins">UI/UX Design</h3>
+          </div>
+          <div class="skills-badges">
+            <span class="skill-badge">Figma</span>
+            <span class="skill-badge">Wireframing</span>
+            <span class="skill-badge">Prototyping</span>
+            <span class="skill-badge">Canva</span>
+            <span class="skill-badge">Design Systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Projects -->
+  <section class="projects-section scroll-spy-section" id="projects">
+    <div class="section-container">
+      <h2 class="section-title font-poppins">Featured Projects</h2>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-img-container">
+              <img src="public/assets/risolbuyani.png"
+                  alt="Website Risol Bu Yani"
+                  class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title font-poppins">Website UMKM risolbuyani.com</h3>
+            <p class="project-desc">
+              Situs web komersial atau landing page kuliner yang difungsikan sebagai platform katalog dan pemesanan online untuk produk camilan risoles rumahan premium.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-img-container">
+              <img src="public/assets/repodoc.png"
+                  alt="Repodoc Digital"
+                  class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title font-poppins">Repodoc Digital</h3>
+            <p class="project-desc">
+              Website repositori dokumen berbasis cloud yang dirancang untuk memudahkan pengelolaan, penyimpanan, dan distribusi dokumen secara terpusat yang memanfaatkan layanan Amazon EC2 sebagai server aplikasi dan Amazon S3 sebagai media penyimpanan dokumen.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-img-container">
+              <img src="public/assets/kosan.jpeg"
+                  alt="Repodoc Digital"
+                  class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title font-poppins">Sistem Informasi Kos</h3>
+            <p class="project-desc">
+              Aplikasi mobile berbasis Flutter untuk membantu mahasiswa di Tanjungpinang menemukan kos-kosan terdekat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Organization & Experience -->
+  <section class="experience-section scroll-spy-section" id="experience">
+    <div class="section-container">
+      <h2 class="section-title font-poppins">Organization & Experience</h2>
+      
+      <div class="experience-timeline">
+        <!-- Exp 1 -->
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div class="exp-meta">
+              <span class="exp-date">Januari 2026 - Maret 2026</span>
+              <h3 class="exp-role font-poppins">Kerja Praktek</h3>
+              <h4 class="exp-org">Dinas Komunikasi dan Informatika Kota Tanjungpinang </h4>
+            </div>
+          </div>
+          <ul class="exp-list">
+            <li>Membuat dashboard monitoring kinerja server berbasis web real-time.</li>
+            <li>Membantu penyelesaian tugas administrasi dan teknis terkait IT.</li>
+          </ul>
+        </div>
+
+        <!-- Exp 2 -->
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div class="exp-meta">
+              <span class="exp-date">2025</span>
+              <h3 class="exp-role font-poppins">Sekretaris II (2025)</h3>
+              <h4 class="exp-org">Himpunan Mahasiswa Teknik Informatika</h4>
+            </div>
+          </div>
+          <ul class="exp-list">
+            <li>Membuat notulen rapat dan mendokumentasikan hasil diskusi organisasi.</li>
+            <li>Menyusun laporan pertanggungjawaban (LPJ) kegiatan program kerja organisasi.</li>
+            <li>Mengelola arsip dokumen agar tersusun dengan rapi dan mudah diakses.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Certificates -->
+  <section class="certificates-section scroll-spy-section" id="certificates">
+    <div class="section-container">
+      <h2 class="section-title font-poppins">Certificates</h2>
+      
+      <div class="certificates-grid">
+        <!-- Cert 1 -->
+        <div class="cert-card reveal" data-cert="skpi">
+          <div class="cert-icon-wrapper">
+            <!-- GANTI SVG DENGAN IMG DI SINI -->
+            <img src="/public/assets/skpi.jpg" alt="Sertifikat SKPI Indobot Academy" class="cert-img-thumbnail">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title font-poppins">SKPI by Indobot Academy X UMRAH</h3>
+            <span class="cert-issuer">Indobot Academy</span>
+            <span class="cert-date-meta">September 2025</span>
+          </div>
+          <div class="cert-hover-hint">View Certificate</div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card reveal" data-cert="bootcamp">
+          <div class="cert-icon-wrapper">
+            <!-- GANTI SVG DENGAN IMG DI SINI -->
+            <img src="/public/assets/bootcamp.jpeg" alt="Sertifikat Bootcamp" class="cert-img-thumbnail">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title font-poppins">Bootcamp UI/UX Design </h3>
+            <span class="cert-issuer">Himpunan Mahasiswa Teknik Informatika UMRAH</span>
+            <span class="cert-date-meta">Oktober 2025 - November 2025</span>
+          </div>
+          <div class="cert-hover-hint">View Certificate</div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card reveal" data-cert="hmti1">
+          <div class="cert-icon-wrapper">
+            <!-- GANTI SVG DENGAN IMG DI SINI -->
+            <img src="/public/assets/hmti.jpg" alt="Sertifikat HMTI" class="cert-img-thumbnail">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title font-poppins">Sekretaris II</h3>
+            <span class="cert-issuer">HMTI</span>
+            <span class="cert-date-meta">2025</span>
+          </div>
+          <div class="cert-hover-hint">View Certificate</div>
+        </div>
+
+                <!-- Cert 4 -->
+        <div class="cert-card reveal" data-cert="hmti2">
+          <div class="cert-icon-wrapper">
+            <!-- GANTI SVG DENGAN IMG DI SINI -->
+            <img src="/public/assets/hmti2.jpeg" alt="Sertifikat HMTI" class="cert-img-thumbnail">
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title font-poppins">Anggota</h3>
+            <span class="cert-issuer">HMTI</span>
+            <span class="cert-date-meta">2024</span>
+          </div>
+          <div class="cert-hover-hint">View Certificate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Contact -->
+  <footer class="footer scroll-spy-section" id="contact" style="background: transparent; color: var(--text-primary, #2F2F2F); padding: 60px 0 30px 0; margin-top: 60px;">
+    <div class="footer-container" style="max-width: 1100px; margin: 0 auto; padding: 0 20px;">
+      
+      <!-- Konten Utama Kontak -->
+      <div class="footer-contact-wrap" style="text-align: center; margin-bottom: 50px;">
+        <h2 class="font-poppins" style="font-size: 2.5rem; margin: 15px 0; color: var(--text-primary, #2F2F2F);">Get In Touch</h2>
+        <p style="color: var(--text-secondary, #666666); max-width: 550px; margin: 0 auto 40px auto; line-height: 1.6; font-size: 0.95rem;">
+          I'm currently seeking internship opportunities, freelance projects, and collaborative roles. Let's build something innovative together!
+        </p>
+
+        <!-- Grid Kontak Minimalis Terang -->
+        <div class="footer-links-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 950px; margin: 0 auto;">
+          
+          <!-- Email -->
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raraanjaliapsarini@gmail.com" style="display: flex; align-items: center; gap: 15px; padding: 20px; background: var(--card-bg, #ffffff); border-radius: 12px; text-decoration: none; color: var(--text-primary, #2F2F2F); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);" onmouseover="this.style.boxShadow='0 10px 25px rgba(0,0,0,0.08)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.03)'; this.style.transform='translateY(0)'">
+            <div style="background: rgba(234, 67, 53, 0.1); padding: 10px; border-radius: 8px; display: flex; align-items: center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ea4335" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div style="text-align: left; overflow: hidden;">
+              <span class="font-poppins" style="display: block; font-size: 0.85rem; color: var(--accent-terracotta, #C97B63); font-weight: 600;">Email Me</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary, #666666); display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">raraanjaliapsarini@gmail.com</span>
+            </div>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/rara-anjali-apsarini-5b9499383" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 15px; padding: 20px; background: var(--card-bg, #ffffff); border-radius: 12px; text-decoration: none; color: var(--text-primary, #2F2F2F); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);" onmouseover="this.style.boxShadow='0 10px 25px rgba(0,0,0,0.08)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.03)'; this.style.transform='translateY(0)'">
+            <div style="background: rgba(0, 119, 181, 0.1); padding: 10px; border-radius: 8px; display: flex; align-items: center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0077b5" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </div>
+            <div style="text-align: left;">
+              <span class="font-poppins" style="display: block; font-size: 0.85rem; color: var(--accent-terracotta, #C97B63); font-weight: 600;">LinkedIn</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary, #666666); display: block;">Rara Anjali Apsarini</span>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/rawwrr1" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 15px; padding: 20px; background: var(--card-bg, #ffffff); border-radius: 12px; text-decoration: none; color: var(--text-primary, #2F2F2F); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);" onmouseover="this.style.boxShadow='0 10px 25px rgba(0,0,0,0.08)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.03)'; this.style.transform='translateY(0)'">
+            <div style="background: rgba(0, 0, 0, 0.05); padding: 10px; border-radius: 8px; display: flex; align-items: center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2F2F2F" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </div>
+            <div style="text-align: left;">
+              <span class="font-poppins" style="display: block; font-size: 0.85rem; color: var(--accent-terracotta, #C97B63); font-weight: 600;">GitHub</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary, #666666); display: block;">rawwrr1</span>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/rra_anjaliii" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 15px; padding: 20px; background: var(--card-bg, #ffffff); border-radius: 12px; text-decoration: none; color: var(--text-primary, #2F2F2F); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);" onmouseover="this.style.boxShadow='0 10px 25px rgba(0,0,0,0.08)'; this.style.transform='translateY(-3px)'" onmouseout="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.03)'; this.style.transform='translateY(0)'">
+            <div style="background: rgba(225, 48, 108, 0.1); padding: 10px; border-radius: 8px; display: flex; align-items: center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e1306c" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </div>
+            <div style="text-align: left;">
+              <span class="font-poppins" style="display: block; font-size: 0.85rem; color: var(--accent-terracotta, #C97B63); font-weight: 600;">Instagram</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary, #666666); display: block;">@rra_anjaliii</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Garis Pembatas Rumah Footer -->
+      <div class="footer-divider" style="height: 1px; background: rgba(0,0,0,0.06); margin: 40px 0 20px 0;"></div>
+      
+      <!-- Hak Cipta & Navigasi Bawah -->
+      <div class="footer-content" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+        <p class="footer-copyright" style="font-size: 0.85rem; color: var(--text-secondary, #777777); margin: 0;">
+          &copy; 2026 Rara Anjali Apsarini. All rights reserved.
+        </p>
+        <div class="footer-links" style="display: flex; gap: 20px;">
+          <a href="#about" style="color: var(--text-secondary, #777777); text-decoration: none; font-size: 0.85rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-terracotta)'" onmouseout="this.style.color='var(--text-secondary, #777777)'">About</a>
+          <a href="#projects" style="color: var(--text-secondary, #777777); text-decoration: none; font-size: 0.85rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-terracotta)'" onmouseout="this.style.color='var(--text-secondary, #777777)'">Projects</a>
+          <a href="#contact" style="color: var(--text-secondary, #777777); text-decoration: none; font-size: 0.85rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-terracotta)'" onmouseout="this.style.color='var(--text-secondary, #777777)'">Contact</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Certificate Detail Preview Modal -->
+  <div class="modal" id="cert-modal" aria-hidden="true" role="dialog">
+    <div class="modal-overlay" tabindex="-1"></div>
+    <div class="modal-wrapper">
+      <button class="modal-close" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-content">
+        <!-- The content inside here is dynamically loaded by JS for a modern high-fidelity certificate viewer -->
+        <div class="certificate-viewer" id="certificate-viewer">
+          <!-- Dynamic High Fidelity Certificate HTML injected here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Script File -->
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
